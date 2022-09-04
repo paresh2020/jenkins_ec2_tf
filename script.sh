@@ -60,5 +60,4 @@ java -jar jenkins-cli.jar -s http://localhost:8080/ -auth 'admin:admin' -webSock
 
 sudo systemctl restart jenkins
 
-java -jar jenkins-cli.jar -s http://localhost:8080/ -auth 'admin:admin' -webSocket create-job new-pipeline < job.xml
-java -jar jenkins-cli.jar -s http://localhost:8080/ -auth 'admin:admin' -webSocket build new-pipeline
+
