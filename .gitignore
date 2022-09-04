@@ -1,1 +1,3 @@
 .terraform
+main_key.pem
+ec2.pem

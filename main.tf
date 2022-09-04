@@ -1,7 +1,6 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIA5B4ZCHATVODKLUDO"
-  secret_key = "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"
+
 }
 
 # # 1. Create vpc
@@ -132,7 +131,7 @@ resource "aws_vpc" "prod-vpc" {
    ami               = "ami-052efd3df9dad4825"
    instance_type     = "t2.medium"
    availability_zone = "us-east-1a"
-   key_name          = "main_key"
+   key_name          = "ec2"
     
    
    network_interface {
