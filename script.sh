@@ -37,7 +37,7 @@ EOF
 
 sudo systemctl restart jenkins
 
-cd 
+cd /tmp
 mkdir jenkins_plugin
 cd jenkins_plugin
 
